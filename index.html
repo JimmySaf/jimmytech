@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>JIMMYTECH</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+</head>
+<body>
+  <script src="script.js"></script>
+  <div class="banner">
+    <div class="navbar">
+    <img class="logo" src="Images/Jimmy.jpg" alt="image">
+        <ul>
+      <li><a href="#"onclick="showContent('home')">Home</a></li>
+      <li><a href="#"onclick="showContent('about')">About</a></li>
+      <li><a href="#"onclick="showContent('entertainment')">Entertainment</a></li>
+      <li><a href="#"onclick="showContent('register')">Register</a></li>
+      <li><a href="#"onclick="showContent('services')">Services</a></li>
+      <li><a href="#"onclick="showContent('contact')">Contact</a></li>
+      </ul>
+    </div>
+    <div class="content">
+  <img src="Images/poster1.jpg" alt="image">
+  <h2>JIMMYTECH.ORG</h2>
+
+        <marquee width="75%"><h1><b>WELCOME</b></h1></marquee>
+        <div class="footer">
+          <i class="fab fa-facebook-f"></i>
+          <i class="fab fa-twitter"></i>
+        </div>
+    </div>
+    <div class="content"id="homeContent"style="display:none;">
+      <marquee width="90%";direction="right"><h1>WWW.JIMMYTECH.ORG</h1></marquee>
+      <p>This website provide helps you to know more about the developer,It also meant to provide educational and entertainment service</p><br><br><br><br>
+You can suscribe to my channel to receive latest updates</p><br><br><br><br><br><br><br><br><br><br><br><br>
+<form>
+  Rank my website:<input type="range"name="points"min="0"max="100"><br><br>
+  <input type="submit">
+</form>
+  </div>
+  <div class="content"id="aboutContent"style="display:none;">
+<h3>JimmyTech Website</h3>
+<ul>
+<li>Mission</li>
+</ul>
+<p>To offer quality services to our esteemed users</p>
+  </div>
+<div class="content" id="entertainmentContent"style="display:none;">
+<h1>Download your favorite songs and videos</h1> <br>
+<form>
+Select your fovourite artist:<select id="Select your fovourite artist>"
+<option value="Minister GUC">MInister GUC</option>
+<option value="Dunsin Oyekan">Dunsin Oyekan</option>
+<option value="ebuka song">Ebuka Song</option>
+<option value="Theophilus sunday">Theophilus Sunday</option>
+<option value="Jimmy de psalmist">Jimmy de Psalmist</option>
+<option value="Mercy chinwo">Mercy Chinwo</option>
+<option value="Alice kimani">Alice Kimani</option>
+<option value="Kestin mbogo">Kestin Mbogo</option>
+<option value="Zaravo">Zaravo</option>
+<option value="Boaz danken">Boaz Danken</option>
+</select>
+</form> <br> <br>
+<audio controls>
+  <source src="C:\Audio\kibali_lyrics_by_Florence_andenyi(360p).mp3" type="audio/mpeg">
+</audio>
+</div>
+<div class="content" id="registerContent"style="display:none;">
+<p>Fill in you details below and submit</p>
+<form action="submit" method="post">
+
+<label form="name">Name:</label><br>
+<input type="text" id="name" name="name" required><br>
+
+<label form="emali">Email:</label><br>
+<input type="text" id="email" name="email" required"><br>
+
+Birthday(date and time)<br><input type="datetime-local"
+name="bdaytime" required></br>
+
+  <input type="radio" name="gender" required
+    value="male">Male
+               <input type="radio" name="gender" required
+     value="female">Female<br> <br> <br> <br> <br>
+<input type="submit" value="Submit">
+</form>
+</div>
+<div class="content" id="servicesContent"style="display:none;">
+  <ul>
+<li>Website development</li>
+<li>Apps development</li>
+<li>Selling Computer gadgets</li>
+<li>Cyber Services</li>
+<li>Pentration Testing</li>
+</ul>
+</div>
+<div class="content"id="contactContent"style="display:none;">
+  <p>www.JimmyTech.org</p>
+  <p>Jimmy Safari</p>
+  <p>safarijimmy25@gmail.com</p>
+  <p>0791939576</p>
+</body>
